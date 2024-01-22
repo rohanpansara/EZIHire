@@ -1,0 +1,753 @@
+@font-face {
+    font-family: 'poppinsbold';
+    src: url('./fonts/Poppins/poppins-bold-webfont.eot');
+    src: url('./fonts/Poppins/poppins-bold-webfont.ttf') format('embedded-opentype'),
+        url('./fonts/Poppins/poppins-bold-webfont.woff2') format('woff2'),
+        url('./fonts/Poppins/poppins-bold-webfont.woff') format('woff'),
+        url('./fonts/Poppins/poppins-bold-webfont.ttf') format('truetype'),
+        url('./fonts/Poppins/poppins-bold-webfont.svg#poppinsbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinslight';
+    src: url('./fonts/Poppins/poppins-light-webfont.eot');
+    src: url('./fonts/Poppins/poppins-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/poppins-light-webfont.woff2') format('woff2'),
+        url('./fonts/Poppins/poppins-light-webfont.woff') format('woff'),
+        url('./fonts/Poppins/poppins-light-webfont.ttf') format('truetype'),
+        url('./fonts/Poppins/poppins-light-webfont.svg#poppinslight') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsmedium';
+    src: url('./fonts/Poppins/poppins-medium-webfont.eot');
+    src: url('./fonts/Poppins/poppins-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/poppins-medium-webfont.woff2') format('woff2'),
+        url('./fonts/Poppins/poppins-medium-webfont.woff') format('woff'),
+        url('./fonts/Poppins/poppins-medium-webfont.ttf') format('truetype'),
+        url('./fonts/Poppins/poppins-medium-webfont.svg#poppinsmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinsregular';
+    src: url('./fonts/Poppins/poppins-regular-webfont.eot');
+    src: url('./fonts/Poppins/poppins-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/poppins-regular-webfont.woff2') format('woff2'),
+        url('./fonts/Poppins/poppins-regular-webfont.woff') format('woff'),
+        url('./fonts/Poppins/poppins-regular-webfont.ttf') format('truetype'),
+        url('./fonts/Poppins/poppins-regular-webfont.svg#poppinsregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'poppinssemibold';
+    src: url('./fonts/Poppins/poppins-semibold-webfont.eot');
+    src: url('./fonts/Poppins/poppins-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Poppins/poppins-semibold-webfont.woff2') format('woff2'),
+        url('./fonts/Poppins/poppins-semibold-webfont.woff') format('woff'),
+        url('./fonts/Poppins/poppins-semibold-webfont.ttf') format('truetype'),
+        url('./fonts/Poppins/poppins-semibold-webfont.svg#poppinssemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratbold';
+    src: url('./fonts/Montserrat/montserrat-bold-webfont.eot');
+    src: url('./fonts/Montserrat/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/montserrat-bold-webfont.woff2') format('woff2'),
+        url('./fonts/Montserrat/montserrat-bold-webfont.woff') format('woff'),
+        url('./fonts/Montserrat/montserrat-bold-webfont.ttf') format('truetype'),
+        url('./fonts/Montserrat/montserrat-bold-webfont.svg#montserratbold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratmedium';
+    src: url('./fonts/Montserrat/montserrat-medium-webfont.eot');
+    src: url('./fonts/Montserrat/montserrat-medium-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/montserrat-medium-webfont.woff2') format('woff2'),
+        url('./fonts/Montserrat/montserrat-medium-webfont.woff') format('woff'),
+        url('./fonts/Montserrat/montserrat-medium-webfont.ttf') format('truetype'),
+        url('./fonts/Montserrat/montserrat-medium-webfont.svg#montserratmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('./fonts/Montserrat/montserrat-regular-webfont.eot');
+    src: url('./fonts/Montserrat/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/montserrat-regular-webfont.woff2') format('woff2'),
+        url('./fonts/Montserrat/montserrat-regular-webfont.woff') format('woff'),
+        url('./fonts/Montserrat/montserrat-regular-webfont.ttf') format('truetype'),
+        url('./fonts/Montserrat/montserrat-regular-webfont.svg#montserratregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratsemibold';
+    src: url('./fonts/Montserrat/montserrat-semibold-webfont.eot');
+    src: url('./fonts/Montserrat/montserrat-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/Montserrat/montserrat-semibold-webfont.woff2') format('woff2'),
+        url('./fonts/Montserrat/montserrat-semibold-webfont.woff') format('woff'),
+        url('./fonts/Montserrat/montserrat-semibold-webfont.ttf') format('truetype'),
+        url('./fonts/Montserrat/montserrat-semibold-webfont.svg#montserratsemibold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*body----------------------------------------------------------------*/
+
+body {
+    font-family: 'poppinsregular', sans-serif;
+    margin: 0 auto;
+}
+
+
+/*navbar--------------------------------------------------------------*/
+
+header {
+    max-width: 100%;
+    background-color: #963184;
+}
+
+nav {
+    max-width: 1146px;
+    background-color: #963184;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.menu-icon,
+.close-icon {
+    display: none;
+}
+
+.navLinksResponsive {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    /* For responsive menu on smaller screen */
+    background-color: #80727c;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.navLinksResponsive span {
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.navLinksResponsive span a {
+    text-decoration: none;
+    font-size: 21px;
+    color: #F4F6FB;
+}
+
+.navLinksResponsive span:first-child {
+    font-weight: bold;
+}
+
+.navLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row wrap;
+    list-style-type: none;
+    letter-spacing: 0.32px;
+    padding-left: 0;
+}
+
+.navLinks li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.navLinks li:nth-child(1) a {
+    font-family: 'poppinsbold', sans-serif;
+    font-weight: bold;
+}
+
+
+/*main----------------------------------------------------------------*/
+
+main {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*slider--------------------------------------------------------------*/
+
+.bannerImg img {
+    width: 100%;
+}
+
+.bannerImg {
+    /* width: 100%; */
+    object-fit: cover;
+}
+
+
+
+.slick-next {
+    /* right: 0 !important; USE ONLY WHEN YOU WANT THE SLIDER ON THE EDGES*/
+    background-image: url(./images/arrow_ic-1.png) !important;
+}
+
+.slick-prev {
+    /* left: 0 !important; USE ONLY WHEN YOU WANT THE SLIDER ON THE EDGES*/
+    background-image: url(./images/arrow_ic.png) !important;
+}
+
+.slick-arrow {
+    z-index: 9;
+    width: 42px !important;
+    height: 42px !important;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: "" !important;
+}
+
+.slick-prev::after,
+.slick-next::after {
+    content: "" !important;
+}
+
+.slick-dots>.slick-active>button {
+    background-color: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    border-radius: 20px;
+}
+
+
+/*midContent----------------------------------------------------------*/
+
+.midContent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentContent {
+    width: 1176px;
+    margin: 0 -15px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+    line-height: 48px;
+    letter-spacing: 0.8px;
+    font-family: 'poppinsbold', sans-serif;
+    color: #293846;
+    margin: 0 15px;
+}
+
+.titleUnderline {
+    border-bottom: 5px solid #963184;
+    box-sizing: border-box;
+    width: 50px;
+    height: 0px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+.dateAndTime {
+    font-weight: 500;
+    font-style: normal;
+    color: #676A6C;
+    font-size: 18px;
+    line-height: 29px;
+    margin-left: 15px;
+}
+
+.actualContent {
+    justify-content: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-style: normal;
+    letter-spacing: 0px;
+    padding-top: 30px;
+    margin: 0 15px;
+}
+
+.actualContent .boldText {
+    text-align: left;
+    font-style: normal;
+    font-weight: 800;
+}
+
+.actualContent p {
+    margin: 26px auto;
+    font-family: 'poppinsregular', sans-serif;
+}
+
+.actualContent p:first-child {
+    margin: 0 26px auto auto;
+}
+
+/* .actualContent .p2 {
+    margin: 26px 0 auto auto
+} */
+
+.actualContent p:last-child {
+    margin-bottom: 0;
+}
+
+.ac {
+    padding-top: 0;
+}
+
+.down {
+    margin: 0;
+    padding-top: 0;
+}
+
+
+/*cardUpper-----------------------------------------------------------*/
+
+.cardUp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parentCard {
+    width: 1176px;
+    display: flex;
+    margin: 0 -15px;
+    flex-direction: row wrap;
+    padding: 40px 0;
+}
+
+.card {
+    justify-content: center;
+    width: 33.33%;
+    margin: 15px;
+}
+
+.content {
+    text-align: left;
+    padding: 20px 0;
+}
+
+.content span {
+    font-family: 'poppinsmedium', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.32px;
+}
+
+.content p {
+    font-family: 'poppinslight', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #525B64;
+    letter-spacing: 0.28px;
+}
+
+.readMoreButton {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 2.625rem;
+    background-color: #963184;
+    border: none;
+    border-radius: 5px;
+    padding: 0 12px;
+}
+
+.readMoreButton span {
+    font-family: 'poppinsregular', sans-serif;
+    font-size: 14px;
+    line-height: 28px;
+    letter-spacing: 0.7px;
+    color: #F4F6FB;
+    padding-right: 27px;
+}
+
+.readMoreButton img {
+    height: 50%;
+    object-fit: contain;
+}
+
+/*cardLower-----------------------------------------------------------*/
+
+.cardLower {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #F4F6FB;
+}
+
+.parentCard2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 60px 0;
+}
+
+.card2 {
+    max-width: min-content;
+    padding: 20px;
+    box-shadow: 0px 0px 20px #0000001A;
+    border-radius: 10px;
+    margin: 0 15px;
+}
+
+.card2:first-child {
+    margin-left: 0;
+}
+
+.card2:last-child {
+    margin-right: 0;
+}
+
+
+.card2 img {
+    padding-bottom: 20px;
+    border-radius: 6px;
+}
+
+.header2 {
+    font-family: 'montserratsemibold', sans-serif;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4px;
+}
+
+.card2 p {
+    font-family: 'montserratmedium', sans-serif;
+    color: #565656;
+    margin: 0;
+    margin-bottom: 22px;
+    margin-top: 16px;
+}
+
+.viewMoreText {
+    display: flex;
+}
+
+.viewMoreText a {
+    text-decoration: none;
+}
+
+.viewMoreText span {
+    padding-right: 10px;
+    letter-spacing: 0px;
+    font-size: 18px;
+    line-height: 22px;
+    color: #963184;
+    font-family: 'montserratsemibold', sans-serif;
+}
+
+.viewMoreText img {
+    object-fit: contain;
+    padding: 0;
+}
+
+
+/*footer--------------------------------------------------------------*/
+
+footer {
+    max-width: 100%;
+    background-color: #963184;
+    text-align: center;
+}
+
+.mainDiv {
+    max-width: 1146px;
+    margin: 0 auto;
+}
+
+.forFooter {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+    border-bottom: #F4F6FB 0.5px solid;
+}
+
+.downUnder {
+    display: flex;
+    flex-direction: row wrap;
+    padding: 0;
+    margin: 0;
+}
+
+.downUnder li {
+    list-style: none;
+    padding: 0 0.625em;
+    margin: 1.875em 0;
+}
+
+.downUnder li:first-child {
+    padding-left: 0;
+}
+
+.downUnder li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 300;
+}
+
+.socialMediaLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row wrap;
+    list-style-type: none;
+    letter-spacing: 0.32px;
+    padding-left: 0;
+}
+
+.socialMediaLogos li {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.socialMediaLogos li:last-child {
+    padding-right: 0;
+}
+
+.socialMediaLogos li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    letter-spacing: 0.32px;
+    font-weight: 300;
+}
+
+.copyrightText {
+    color: white;
+    font-size: 16px;
+    line-height: 25px;
+    padding: 0.94em 0;
+}
+
+
+/* Media  Queries*/
+
+@media (max-width: 1146px) and (min-width: 769px) {
+
+    nav {
+        justify-content: space-evenly;
+    }
+
+    .midContent {
+        max-width: 1146px;
+    }
+
+    .parentContent {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .parentCard1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parentCard2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card2 {
+        margin: 18px auto;
+    }
+
+    .card2:first-child {
+        margin: 0 auto;
+    }
+
+    .card2:last-child {
+        margin: 0 auto;
+    }
+
+    .forFooter {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .menu-icon {
+        display: block;
+    }
+
+    .navLinks {
+        display: none;
+    }
+
+    h1 {
+        margin-bottom: 16px;
+    }
+
+    .parentContent {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .dateAndTime {
+        margin: 0;
+    }
+
+    .parentCard1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .header1 {
+        text-align: left;
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+    }
+
+    .content1 {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.28px;
+    }
+
+    .readMoreButton {
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 0.7px;
+    }
+
+    .parentCard2 {
+        justify-content: center;
+    }
+
+    .card2 {
+        background-color: white;
+        margin: 15px;
+    }
+
+    .card2:first-child {
+        margin-top: 0;
+        margin-left: 15px;
+    }
+
+    .card2:last-child {
+        margin-right: 15px;
+        margin-bottom: 0;
+    }
+
+    .forFooter {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .socialMediaLogos li {
+        padding-left: 1.2em;
+        padding-right: 1.2em;
+    }
+
+    .downUnder {
+        font-size: 10px;
+        display: flex;
+        flex-direction: row wrap;
+        justify-content: center;
+    }
+
+    .underline {
+        display: none;
+    }
+
+    .copyrightText {
+        padding-top: 6px;
+        color: white;
+        font-size: 12px;
+        line-height: 16px;
+        padding-bottom: 10px;
+    }
+}
+
+@media (max-width: 560px) {
+    .downUnder {
+        display: none;
+    }
+
+    .parentContent {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    .parentCard1 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .parentCard2 {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .card2 {
+        margin: 15px auto;
+    }
+
+    .card2:first-child {
+        margin: 0 auto;
+    }
+
+    .card2:last-child {
+        margin: 0 auto;
+    }
+
+    .underline {
+        display: none;
+    }
+}
